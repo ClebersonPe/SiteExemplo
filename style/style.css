@@ -74,6 +74,8 @@ main .container .main-text{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-left: 50px;
+    
 }
 
 
@@ -127,13 +129,70 @@ main .container .main-banner{
     color: #93D8EF;
 }
 
-.main-text .btn-main{
-   
-}
+
 
 
 /*cards*/
 
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 4%;
+    margin-bottom: 10px;
+}
+
+.card{
+    background-color: #ddfff0fb;
+    width: 320px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(19, 206, 235, 0.691);
+}
+
+.card:hover{
+     transform: translateY(-5px);
+     transition: 0.3s;
+}
+
+.card-img{
+   background-image: url("../img/celular.jpg");
+   height: 200px;
+   width: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-radius: 10px 10px 0 0px;
+   
+}
+
+.segundo{
+    background-image: url("../img/computador.jpg");
+}
+
+.card-text{
+    padding: 5px;
+}
+
+.card-text h2{
+    font-size: 27px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #26445E;
+}
+
+.card-text p{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.card-text a{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 800;
+    color: #26445E;
+}
 
 
 
