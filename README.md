@@ -1,1 +1,1 @@
-Site de exemplo, sendo desenvolvido para as aulas de HTML que estou ministrando na CTRL PLAY
+O objetivo deste site é auxiliar no aprendizado nos novos alunos que estão iniciando o aprendizado na área de desenvolvimento web, para que eles eventualmente criem seus projetos em sala de aula, utilizando esse projeto de base.
